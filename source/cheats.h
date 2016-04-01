@@ -45,7 +45,7 @@ typedef struct		s_menu
 }			t_menu;
 
 /*
-**main.c
+**gameplg.c
 */
 
 void			onCheatItemChanged(int id, int enable);
