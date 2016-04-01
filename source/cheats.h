@@ -45,8 +45,9 @@ typedef struct		s_menu
 }			t_menu;
 
 /*
-**mainc.
+**main.c
 */
+
 void			onCheatItemChanged(int id, int enable);
 void 			switch_mode();
 
@@ -175,6 +176,7 @@ int			get_next_id(enum MENU m);
 /*
 **libntr prototypes
 */
+
 u32			plgGetIoBase(u32 IoType);
 Handle			getCurrentProcessHandle();
 u32			getCurrentProcessId();
